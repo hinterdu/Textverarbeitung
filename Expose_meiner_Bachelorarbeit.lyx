@@ -1,0 +1,1029 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass amsbook
+\begin_preamble
+\usepackage{graphicx}
+\textwidth 16.7cm
+\textheight 24cm
+\topmargin -2.7cm
+\oddsidemargin 0.25cm
+\parindent 0pt
+
+\usepackage{lipsum}
+\end_preamble
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\language naustrian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\topmargin -2.7cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style german
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%% Andreas Neubauer, May 2016
+\end_layout
+
+\begin_layout Plain Layout
+
+%% LyXified by Zoltan Kovacs, Dec 2019, Jän 2021
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+def
+\backslash
+title{ANWENDUNG VON LERNSTRATEGIEN IN DER 11.
+ SCHULSTUFE  }
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+def
+\backslash
+name{Ulrich Andreas Hinterdorfer}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+def
+\backslash
+institute{Institut für 
+\backslash
+
+\backslash
+Didaktik der Mathematik}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+def
+\backslash
+supervisor{Uni.
+ Prof.
+ DI Mag.
+ Dr.
+ Dr.h.c.
+ Markus Hohenwarter }
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+def
+\backslash
+date{Juni 2021}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+% Unter dieser Linie sollte keine Änderung gemacht werden
+\end_layout
+
+\begin_layout Plain Layout
+
+% -------------------------------------------------------
+\end_layout
+
+\begin_layout Plain Layout
+
+%
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+def
+\backslash
+ifundefined#1{
+\backslash
+expandafter
+\backslash
+ifx
+\backslash
+csname#1
+\backslash
+endcsname
+\backslash
+relax}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+DeclareFontShape{OT1}{cmss}{m}{n}
+\end_layout
+
+\begin_layout Plain Layout
+
+  {<5><6><7><8><9><10><10.95><12><14.4><17.28><20.74><24.88><29.86><35.83><42.99><51.59><
+67><77.38>cmss10}{}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+DeclareFontShape{OT1}{cmss}{bx}{n}
+\end_layout
+
+\begin_layout Plain Layout
+
+  {<5><6><7><8><9><10><10.95><12><14.4><17.28><20.74><24.88><29.86><35.83><42.99><51.59><
+67><77.38>cmssbx10}{}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+makeatletter
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+def
+\backslash
+Huge{
+\backslash
+@setfontsize
+\backslash
+Huge{29.86pt}{36}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+makeatother
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+unitlength 1cm
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+sffamily
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{picture}(16.7,0)
+\backslash
+put(-0.3,-2.5){
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename ../../Moodle_zeugs/PHDL.png
+	lyxscale 40
+	width 7.22cm
+
+\end_inset
+
+
+\begin_inset space \hspace{}
+\length 3mm
+\end_inset
+
+
+\begin_inset Graphics
+	filename ../../Moodle_zeugs/PH-OOe.png
+	lyxscale 10
+	width 3.41cm
+
+\end_inset
+
+
+\begin_inset space \hspace{}
+\length 5mm
+\end_inset
+
+
+\begin_inset Graphics
+	filename ../../Moodle_zeugs/JKU.png
+	lyxscale 40
+	width 4.94cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+put(12.5,-4.2){
+\backslash
+begin{minipage}[t]{5cm}
+\backslash
+footnotesize%
+\end_layout
+
+\begin_layout Plain Layout
+
+ Eingereicht von
+\backslash
+
+\backslash
+ {
+\backslash
+bfseries
+\backslash
+name}%
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vskip 4mm%
+\end_layout
+
+\begin_layout Plain Layout
+
+ Angefertigt am
+\backslash
+
+\backslash
+ {
+\backslash
+bfseries
+\backslash
+institute}%
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vskip 4mm%
+\end_layout
+
+\begin_layout Plain Layout
+
+ Beurteiler / Beurteilerin
+\backslash
+
+\backslash
+ {
+\backslash
+bfseries
+\backslash
+supervisor}%
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vskip 4mm%
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+date
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{minipage}}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+put(0,-25){
+\backslash
+begin{minipage}[t]{3.9cm}
+\backslash
+footnotesize%
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\backslash
+bfseries Private Pädagogische 
+\backslash
+
+\backslash
+ Hochschule der 
+\backslash
+
+\backslash
+ Diözese Linz}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Salesianumweg 3
+\backslash
+
+\backslash
+ 4020 Linz, Österreich
+\backslash
+
+\backslash
+ phdl.at
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{minipage}}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+put(6.5,-25){
+\backslash
+begin{minipage}[t]{5cm}
+\backslash
+footnotesize%
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\backslash
+bfseries Pädagogische Hochschule
+\backslash
+
+\backslash
+ Oberösterreich}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Kaplanhofstraße 40 /
+\backslash
+
+\backslash
+ Huemerstrasse 3 - 5
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+4020 Linz, Österreich
+\backslash
+
+\backslash
+ ph-ooe.at
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{minipage}}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+put(12.9,-25){
+\backslash
+begin{minipage}[t]{3.9cm}
+\backslash
+footnotesize%
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\backslash
+bfseries JOHANNES KEPLER
+\backslash
+
+\backslash
+ UNIVERSITÄT LINZ}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Altenbergerstra{
+\backslash
+ss}e 69
+\backslash
+
+\backslash
+ 4040 Linz, Österreich
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+www.jku.at
+\backslash
+
+\backslash
+ DVR 0093696
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{minipage}}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+put(0,-15.2){
+\backslash
+begin{minipage}[b]{15cm}
+\backslash
+Huge
+\backslash
+bfseries
+\backslash
+title
+\backslash
+end{minipage}}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+put(0,-18.3){
+\backslash
+begin{minipage}[t]{12cm}%
+\end_layout
+
+\begin_layout Plain Layout
+
+ {
+\backslash
+large Bachelorarbeit}%
+\end_layout
+
+\begin_layout Plain Layout
+
+ 
+\backslash
+vskip 2mm%
+\end_layout
+
+\begin_layout Plain Layout
+
+ zur Erlangung des akademischen Grades%
+\end_layout
+
+\begin_layout Plain Layout
+
+ 
+\backslash
+vskip 3mm%
+\end_layout
+
+\begin_layout Plain Layout
+
+ {
+\backslash
+large Bachelor of Education}
+\end_layout
+
+\begin_layout Plain Layout
+
+ 
+\backslash
+vskip 3mm%
+\end_layout
+
+\begin_layout Plain Layout
+
+ im Bachelorstudium
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vskip 3mm%
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\backslash
+large Lehramt Sekundarstufe (Allgemeinbildung)}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{minipage}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{picture}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+eject
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rmfamily
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+topmargin 0cm
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset VSpace 30pheight%*
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+Für meine Studienkollegen
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Einführung
+\end_layout
+
+\begin_layout Standard
+Bezüglich meiner Forschungsfrage habe ich mich aber noch nicht ganz entschieden
+ und ersuche Sie um Ihre Hilfe bei der Entscheidung.
+ Mögliche Forschungsfragen, die ich mir überlegt habe, wären: 
+\end_layout
+
+\begin_layout Itemize
+„In wie weit unterscheiden sich die Lernstrategien von Schülern und Schülerinnen
+ in der 7.
+ Schulstufe?“ Vergleich Burschen und Mädchen – welche Strategien werden
+ vorwiegend angewandt.
+\end_layout
+
+\begin_layout Itemize
+„In wie weit unterscheiden sich die Lernstrategien von Schülern und Schülerinnen
+ in Abhängigkeit der Schulstufe im Fach Mathematik?“ Hier könnte ich die
+ 4.
+ und 7.
+ Schulstufe vergleichen.
+\end_layout
+
+\begin_layout Standard
+Bei beiden Forschungsfragen würde ich im Theorieteil der Arbeit zuerst auf
+ den Bereich Lernen- Wissenserwerb eingehen und im Anschluss die Lernstrategien
+ genauer erläutern.
+ Im empirischen Teil der Arbeit möchte ich einen Fragebogen verwenden, der
+ sich an bereits existierende Fragebögen (LIST, LimST, PISA) anlehnt.
+ 
+\end_layout
+
+\begin_layout Chapter
+Grobe Gliederung (vorläufiges Inhaltsverzeichnis)
+\end_layout
+
+\begin_layout Itemize
+Deckblatt 
+\end_layout
+
+\begin_layout Itemize
+Eidesstattliche Erklärung 
+\end_layout
+
+\begin_layout Itemize
+Kurzfassung 
+\end_layout
+
+\begin_layout Itemize
+Inhaltsverzeichnis 
+\end_layout
+
+\begin_layout Itemize
+Einleitung 
+\end_layout
+
+\begin_layout Itemize
+Theorieteil: (grobe, vorläufige Gliederung) 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Was ist Lernen?
+\end_layout
+
+\begin_layout Itemize
+Wissenserwerb?
+\end_layout
+
+\begin_layout Itemize
+Grundlagen von Lernstrategien 
+\end_layout
+
+\begin_layout Itemize
+Einteilung von Lernstrategien 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Empirischer Teil
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Methode: Fragebogen Ich habe bei meiner Recherche einige einschlägige Erhebungsi
+nstrumente wie LIST (Wild, 2000), LimST (Liebendörfer, 2018) bzw.
+ Erhebungsinstrumente innerhalb etablierter Studien wie PISA (2003) und
+ TIMS (IEA, 2007) entdeckt.
+ Ein Fragebogen der Hochschule Osnabrück zur Befragung von Lehrenden und
+ Studierenden dient ebenfalls als Hilfe.
+ 
+\end_layout
+
+\begin_layout Itemize
+Auswertung
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Schlussfolgerung 
+\end_layout
+
+\begin_layout Itemize
+Literaturverzeichnis 
+\end_layout
+
+\begin_layout Itemize
+Abbildungen und Tabellen 
+\end_layout
+
+\begin_layout Itemize
+Anhang 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Vorläufiger Zeitplan
+\end_layout
+
+\begin_layout Itemize
+Fragebogenerstellung bis Mitte April 
+\end_layout
+
+\begin_layout Itemize
+Ausarbeitung des Theorieteils bis Ende April
+\end_layout
+
+\begin_layout Itemize
+Ausgabe des Fragebogens spätestens Ende April 
+\end_layout
+
+\begin_layout Itemize
+Bearbeitungszeit des Fragebogens bis Mitte Mai 
+\end_layout
+
+\begin_layout Itemize
+Empirischer Teil – Auswertung bis Ende Mai 
+\end_layout
+
+\begin_layout Itemize
+Fertigstellung der Arbeit bis spätestens Mitte Juni 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-3"
+
+\end_inset
+
+Mandl, H.
+ & Friedrich H.F.
+ (2006).
+ Handbuch Lernstrategien.
+ Göttingen: Hogrefe.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-4"
+
+\end_inset
+
+Hellmich, F.
+ & Wernke S.
+ (2009).
+ Lernstrategien im Grundschulalter.
+ Stuttgart: Kohlhammer.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-5"
+
+\end_inset
+
+artin, P.
+ & Nicolaisen T.
+ (2015).
+ Lernstrategien fördern.
+ Weinheim: Beltz Juventa.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-6"
+
+\end_inset
+
+Mummenedey, H.D.
+ (2003).
+ Die Fragebogen-Methode (4., unveränderte Auflage).
+ Göttingen: Hogrefe.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-7"
+
+\end_inset
+
+Ziegler, A.
+ & Dresel, M.
+ (2006).
+ Lernstrategien.
+ Die Genderproblematik.
+ In H.
+ Mandl & Helmut Felix Friedrich (Hrsg.), Handbuch Lernstrategien (S.
+ 378 – 389).
+ Göttingen: Hogrefe.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-8"
+
+\end_inset
+
+Czech, H.
+ (o.A).
+ Fragebogen zur Anwendung von Lernstrategien.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-9"
+
+\end_inset
+
+Liebendörfer, M., Göller, R., Biehler, R.
+ et al.
+ LimSt – Ein Fragebogen zur Erhebung von Lernstrategien im mathematikhaltigen
+ Studium.
+ J Math Didakt 42, 25–59 (2021)
+\end_layout
+
+\end_body
+\end_document

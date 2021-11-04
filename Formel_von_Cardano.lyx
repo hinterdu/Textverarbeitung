@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #LyX 2.3 created this file. For more info see http://www.lyx.org/
 \lyxformat 544
 \begin_document
@@ -309,3 +310,316 @@ http://www.ftp.lyx.de/Documentation/de/UserGuide.pdf
 
 \end_body
 \end_document
+=======
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3.5cm
+\topmargin 2cm
+\rightmargin 3.5cm
+\bottommargin 4cm
+\headsep 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Die Formel von Cardano 
+\end_layout
+
+\begin_layout Author
+Ulrich A.
+ Hinterdorfer
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\noindent
+Die Lösungen von Gleichungen bis höchstens 4.
+ Grades können exakt aus den Koeffizienten berechnet werden, indem man Wurzeln
+ zieht und rationale Rechenoperationen durchführt.
+ Ab Gleichungen 5.
+ Grades ist dies im allgemeinen nicht mehr möglich und man muss sich mit
+ Näherungslösungen verwenden.
+ In folgendem Artikel finden Sie die Formeln von Cardano die zu exakten
+ Lösung von allgemeinen Gleichungen dritten Grades führt.
+ Diese Formel wurde im Jahr 1545 veröffentlicht.
+\end_layout
+
+\begin_layout Section
+Ausgangslage
+\end_layout
+
+\begin_layout Standard
+Als Ausgangslage wird eine Gleichung dritten Grades benötigt, die wie folgt
+ aussieht : 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+ax^{3}+bx^{2}+cx+d=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Vorgehensweise nach Cardano 
+\end_layout
+
+\begin_layout Standard
+Der Mathematiker Gerolamo Cardano überlegte wie man die Gleichung dritten
+ Grades durch rationale Operationen in eine Gleichung zweiten Grades verwandeln
+ kann.
+ 
+\end_layout
+
+\begin_layout Subparagraph*
+\noindent
+Dividiert man durch 
+\begin_inset Formula $a$
+\end_inset
+
+ und setzt man 
+\begin_inset Formula $y=x+\frac{b}{3a}$
+\end_inset
+
+, so entsteht die Gleichung:
+\begin_inset Formula 
+\[
+y^{3}+3py+2q=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph*
+mit den Faktoren 
+\begin_inset Formula $3p=\frac{3ac-b^{2}}{3a^{2}}$
+\end_inset
+
+ und 
+\begin_inset Formula $q=\frac{2b^{3}}{27a^{3}}-\frac{bc}{3a^{2}}+\frac{d}{a}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing double
+\noindent
+Die Anzahl der reellen Lösungen hängt vom Vorzeichen der Diskrimante 
+\begin_inset Formula $D$
+\end_inset
+
+ ab, die wie folgt berechnet wird: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+D=q²+p³
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Für den Fall der Diskriminate gibt es 3 Fälle, die Cardano unterschieden
+ hat: 
+\end_layout
+
+\begin_layout Itemize
+Ist 
+\begin_inset Formula $D>0$
+\end_inset
+
+, so hat die Gleichung eine reelle und zwei komplexe Lösungen.
+\end_layout
+
+\begin_layout Itemize
+Ist 
+\begin_inset Formula $D<0$
+\end_inset
+
+, so hat die Gleichung drei verschiedene reelle Lösungen.
+\end_layout
+
+\begin_layout Itemize
+Für 
+\begin_inset Formula $D=0$
+\end_inset
+
+ hat die Gleichung die Lösung 
+\begin_inset Formula $y_{1}=y_{2}=y_{3}=0$
+\end_inset
+
+, falls 
+\begin_inset Formula $p=q=0$
+\end_inset
+
+ und zwei Lösungen, falls 
+\begin_inset Formula $q2=-p3\neq0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Die Lösungen heissen 
+\begin_inset Formula $y_{1}=u+v$
+\end_inset
+
+, 
+\begin_inset Formula $y_{2}=f_{1}u+f_{2}v$
+\end_inset
+
+, 
+\begin_inset Formula $y_{3}=f_{2}u+f_{1}v$
+\end_inset
+
+, wobei 
+\begin_inset Formula 
+\[
+u=\sqrt[3]{-q+\sqrt{D}}3-q+D,v=\sqrt[3]{-q-\sqrt{D}}3-q-D
+\]
+
+\end_inset
+
+und 
+\begin_inset Formula $f_{1}$
+\end_inset
+
+ und 
+\begin_inset Formula $f_{2}$
+\end_inset
+
+ die Lösungen der Gleichung 
+\begin_inset Formula $f²+f+1=0$
+\end_inset
+
+ sind, d.h.
+\begin_inset Formula $f_{1,2}=0.5(-1\pm i{\rm \sqrt{3})}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-2"
+literal "false"
+
+\end_inset
+
+ https://www.mathematik.ch/anwendungenmath/Cardano/FormelCardano.html
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-3"
+
+\end_inset
+
+https://de.wikipedia.org/wiki/Cardanische_Formeln
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-5"
+
+\end_inset
+
+http://www.ftp.lyx.de/Documentation/de/UserGuide.pdf
+\end_layout
+
+\end_body
+\end_document
+>>>>>>> ddc926d4012316bd00e3dff9ea428017e06fa3c0
