@@ -1,0 +1,45 @@
+% Encoding: UTF-8
+
+@Article{HeinzMandl2006,
+  author  = {Heinz Mandl ,Helmut F. Friedrich},
+  journal = {Hogrefe},
+  title   = {Handbuch Lernstrategien},
+  year    = {2006},
+}
+
+@Article{FrankHellmich2009,
+  author  = {Frank Hellmich , Stephan Wernke},
+  journal = {Kohlhammer},
+  title   = {Lernstrategien im Grundschulalter: Konzepte, Befunde und praktische Implikationen},
+  year    = {2009},
+}
+
+@Article{PierreYvesMartin2015,
+  author  = {Pierre-Yves Martin , Torsten Nicolaisen},
+  journal = {BELTZJuventa},
+  title   = {Lernstrategien foerdern: Modelle und Praxisszenarien},
+  year    = {2015},
+}
+
+@Article{Mummendey2003,
+  author  = {Hans D. Mummendey},
+  journal = {Hogrefe},
+  title   = {Die Fragebogen-Methode},
+  year    = {2003},
+}
+
+@Article{Czech,
+  author  = {Henning Czech},
+  journal = {HS Osnabrueck},
+  title   = {Fragebogen zur Anwendung von Lernstrategien},
+  year    = {2012},
+}
+
+@Article{Liebendoerfer2021,
+  author  = {Michael Liebendoerfer},
+  journal = {SpringerLink},
+  title   = {LimSt Ein Fragebogen zur Erhebung von Lernstrategien im mathematikhaltigen Studium},
+  year    = {2021},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
